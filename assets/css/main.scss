@@ -10,6 +10,10 @@ $theme-colors: (
   "danger": $danger,
 );
 
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
 html {
   font-size: 15px;
   line-height: 22px;
@@ -53,6 +57,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #869ab8;
 }
 
 .base-ligne {
@@ -176,4 +184,4 @@ footer{
   font-weight: 500;
   line-height: 1rem;
 }
-@import "../../node_modules/bootstrap/scss/bootstrap";
+

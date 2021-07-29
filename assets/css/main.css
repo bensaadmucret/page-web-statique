@@ -4,13 +4,25 @@ html {
   line-height: 22px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: "Adobe Clean", sans-serif;
+  font-family: "Comfortaa", cursive;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  font-family: "Comfortaa", cursive;
+  color: #333;
+}
+
 .icon-adobe-portfolio {
-  fill: #fff;
+  fill: #333;
+}
+
+#top-menu {
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 3030;
 }
 
 .nav {
@@ -19,11 +31,11 @@ html {
 }
 
 .nav-item > a {
-  color: #fff;
+  color: #495057;
 }
 
 .signin-wrapper {
-  fill: #fff;
+  fill: #333;
 }
 
 .right-header {
@@ -34,8 +46,10 @@ html {
 }
 
 .base-ligne {
-  padding-top: 8%;
-  padding-bottom: 15%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 0 auto;
+  width: 66%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,20 +57,32 @@ html {
 }
 
 .base-ligne > h1 {
-  color: #fff;
-  font-size: 66px;
-  font-weight: 200;
-  line-height: 65px;
+  color: #495057;
+  font-family: "Comfortaa", cursive;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.base-ligne > h2 {
+  font-family: "Comfortaa", cursive;
+  color: #9fc1ea;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
   text-align: center;
 }
 
 .myButton {
   background-color: #ffffff;
   border-radius: 28px;
-  border: 1px solid #ffffff;
+  border: 1px solid #333;
   display: inline-block;
   cursor: pointer;
-  color: #625fbf;
+  color: #495057;
   font-family: Arial;
   font-size: 17px;
   padding: 16px 31px;
@@ -65,7 +91,7 @@ html {
 }
 
 .myButton:hover {
-  background-color: #b864b8;
+  background-color: #d8d8d8;
 }
 
 .myButton:active {
@@ -74,9 +100,70 @@ html {
 }
 
 .light-shadow {
-  -webkit-box-shadow: 0 6px 6px -6px #aaa;
-  -moz-box-shadow: 0 6px 6px -6px #aaa;
-  box-shadow: 0 6px 6px -6px #aaa;
+  -webkit-box-shadow: 0 6px 6px -6px #495057;
+  -moz-box-shadow: 0 6px 6px -6px #495057;
+  box-shadow: 0 6px 6px -6px #495057;
+}
+
+.bar {
+  background-color: #e6d3f7;
+}
+
+.content-agenda {
+  background-color: #fcf5e8;
+  padding: 5em 0em 5em 0em;
+}
+
+.information-content {
+  box-shadow: rgba(163, 163, 163, 0.8) 0px 1px 10px;
+  padding: 2em;
+  margin: 2em;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.agenda {
+  background-color: #fff;
+  margin: 2em 2em 2em 2em;
+  padding: 2em;
+  box-shadow: rgba(163, 163, 163, 0.8) 0px 1px 10px;
+  border-radius: 10px;
+}
+
+.date-item {
+  padding: 1em, 0em 1em 0em;
+  margin: 1em;
+  color: #ff4136;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.card-link:hover {
+  color: #495057;
+  border-bottom: 2px solid #FF3028;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+}
+
+.content-blog {
+  background-color: #fff;
+  padding: 2em;
+}
+
+@media (max-width: 700px) {
+  .slider {
+    display: none;
+  }
+}
+
+footer {
+  background-color: #47889c;
+  color: #fff;
+  padding: 1em;
+  margin: 0em;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1rem;
 }
 
 /*!
@@ -7428,7 +7515,7 @@ button.bg-dark:focus {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: rgba(163, 163, 163, 0.8) 0px 1px 10px !important;
 }
 
 .shadow-lg {

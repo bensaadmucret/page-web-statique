@@ -1,4 +1,5 @@
 $primary: #0654b3;
+$primary_color_typo:#506690;
 $danger: #ff4136;
 $color_paragraph: #495057;
 $section-bg:#fcf5e8;
@@ -9,6 +10,10 @@ $theme-colors: (
   "primary": $primary,
   "danger": $danger,
 );
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
 html {
   font-size: 15px;
@@ -22,7 +27,7 @@ html {
 
 body {
   font-family: "Comfortaa", cursive;
-  color: #333;
+  color: $primary_color_typo;
 }
 
 .icon-adobe-portfolio {
@@ -40,19 +45,11 @@ body {
   display: flex;
   align-items: center;
 }
-.nav-item > a {
-  color:$color_paragraph;
-}
 
-.signin-wrapper {
-  fill: #333;
-}
 
-.right-header {
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.navbar-dark .navbar-nav .nav-link {
+  color: $primary_color_typo;
+  
 }
 
 .base-ligne {
@@ -66,8 +63,14 @@ body {
   flex-direction: column;
 }
 
+.display-3 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .base-ligne > h1 {
-  color:$color_paragraph;
+  color:$primary_color_typo;
   font-family: "Comfortaa", cursive;
   font-size: 2rem;
   font-weight: 600;
@@ -92,7 +95,7 @@ body {
   border: 1px solid #333;
   display: inline-block;
   cursor: pointer;
-  color: $color_paragraph;
+  color: $primary_color_typo;
   font-family: Arial;
   font-size: 17px;
   padding: 16px 31px;
@@ -148,7 +151,7 @@ body {
 }
 
 .card-link:hover {  
-  color: $color_paragraph;
+  color: $primary_color_typo;
   border-bottom: 2px solid #FF3028;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
 } 
@@ -176,4 +179,4 @@ footer{
   font-weight: 500;
   line-height: 1rem;
 }
-@import "../../node_modules/bootstrap/scss/bootstrap";
+

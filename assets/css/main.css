@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/**KULER*/
+/* Color Theme Swatches in Hex */
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10030,7 +10032,17 @@ body {
 }
 
 .bar {
-  background-color: #e6d3f7;
+  background-color: #309bf6;
+  color: #fff;
+}
+.bar span {
+  color: #000000;
+  padding: 1rem 1rem 1rem 0rem;
+}
+.bar span:hover {
+  color: #060a0a;
+  text-decoration: none;
+  selector: unset;
 }
 
 .content-agenda {
@@ -10081,13 +10093,24 @@ body {
 }
 
 footer {
-  background-color: #47889c;
+  background-color: #506AD4;
   color: #fff;
   padding: 1em;
   margin: 0em;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1rem;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer ul, footer li {
+  color: #fff;
+  list-style: none;
+}
+footer h6 {
+  color: #F2CC39;
 }
 
 /*# sourceMappingURL=main.css.map */

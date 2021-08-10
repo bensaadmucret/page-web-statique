@@ -5,6 +5,15 @@ $color_paragraph: #495057;
 $section-bg:#fcf5e8;
 $box-shadow: rgba(163, 163, 163, .8) 0px 1px 10px;
 
+/**KULER*/
+/* Color Theme Swatches in Hex */
+$bleu_clair: #A3CDD9;
+$sable: #FFFCE6;
+$jaune_moutard: #F2CC39;
+$bleu: #506AD4;
+$taupe: #C2B8AD;
+
+
 
 $theme-colors: (
   "primary": $primary,
@@ -117,7 +126,18 @@ body {
 }
 
 .bar{
-  background-color: #e6d3f7;
+  background-color: #309bf6;
+  color: #fff;
+  span { 
+    color: #000000;
+    padding: 1rem 1rem 1rem 0rem;
+    &:hover {
+     
+      color: #060a0a;
+      text-decoration: none;
+      selector: unset;
+    }
+   }
 }
 
 .content-agenda {
@@ -171,12 +191,24 @@ body {
 }
 
 footer{
-  background-color: #47889c;
+  background-color: $bleu;
   color: #fff;
   padding: 1em;
   margin: 0em;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  ul,li{
+    color: #fff;
+    list-style: none;
+  }
+  h6{
+    color: $jaune_moutard
+  }
 }
 

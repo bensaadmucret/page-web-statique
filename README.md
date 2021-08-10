@@ -14,7 +14,7 @@
 
 ### Palette
 
-![Screenshot](AdobeColor-Wedding (Off-White Background - Greys and Blues Base - Yellow Accent).jpeg)
+![Screenshot](palette.jpeg)
 
 ```xml
 <palette>

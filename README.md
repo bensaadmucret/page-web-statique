@@ -8,6 +8,7 @@
 - [sass]
 - [Twitter Bootstrap]
 - [https://getwaves.io/ | créer des vagues en SVG]
+- AOS Animate On Scroll Library
 
 ### Inspiration
 

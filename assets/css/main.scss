@@ -20,9 +20,9 @@ $theme-colors: (
   "danger": $danger,
 );
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/variables.scss";
+@import "../../node_modules/bootstrap/scss/mixins.scss";
 
 html {
   font-size: 15px;
@@ -38,6 +38,28 @@ body {
   font-family: "Comfortaa", cursive;
   color: $primary_color_typo;
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
 
 .icon-adobe-portfolio {
   fill: #333;
@@ -129,14 +151,15 @@ body {
   background-color: #309bf6;
   color: #fff;
   span { 
-    color: #000000;
+    color: $jaune_moutard;
     padding: 1rem 1rem 1rem 0rem;
+    font-weight: 800;
+    text-shadow: #060a0a 0px 1px 0px;
     &:hover {
      
       color: #060a0a;
       text-decoration: none;
-      selector: unset;
-    }
+      }
    }
 }
 
@@ -177,18 +200,10 @@ body {
 } 
 
 .content-blog {
-  background-color: #fff;
- 
+  background-color: #fff; 
   padding: 2em;
 }
 
-
-
-.slider {
-  @media (max-width: 700px) {
-    display: none;
-  }
-}
 
 footer{
   background-color: $bleu;
@@ -203,12 +218,24 @@ footer{
     color: #fff;
     text-decoration: none;
   }
-  ul,li{
+
+  a:hover {
     color: #fff;
+    text-decoration: underline;
+  }
+
+  ul, li {
     list-style: none;
+    color: #fff;
   }
-  h6{
-    color: $jaune_moutard
+
+  h6 {
+    color : $jaune_moutard;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1rem;
+    margin-bottom: 1em;
   }
+  
 }
 

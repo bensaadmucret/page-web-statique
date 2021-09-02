@@ -1,4 +1,4 @@
-$primary: #0654b3;
+$primary: #309bf6;
 $primary_color_typo:#506690;
 $danger: #ff4136;
 $color_paragraph: #495057;
@@ -45,34 +45,6 @@ body {
   color: $primary_color_typo;
 }
 
-<<<<<<< HEAD
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-}
-
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  
-}
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}
-
-
-.icon-adobe-portfolio {
-  fill: #333;
-}
-=======
->>>>>>> dacf13f39b8386d876a6e6c0697eaefda378f6fe
 
 .header {
   padding-top: 10%;
@@ -2208,7 +2180,7 @@ mark,
 
 .jumbotron {
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   background-color: #e9ecef;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
@@ -6432,7 +6404,7 @@ h1, h2, h3, h4, h5,
 
 
 footer{
-  background-color: $bleu;
+  background-color: $primary;
   color: #fff;
   padding: 1em;
   margin: 0em;

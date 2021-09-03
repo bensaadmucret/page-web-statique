@@ -27,3 +27,5 @@
 <color rgb='C2B8AD' r='193' g='184' b='172' />
 </palette>
 ```
+
+## published at https://bensaadmucret.github.io/page-web-statique/

@@ -11,6 +11,10 @@ $bleu: #506AD4;
 $taupe: #C2B8AD;
 
 
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
 .navbar-brand-img {  
   height: auto !important;
   width: 5.5em;
@@ -23,9 +27,13 @@ $theme-colors: (
   "danger": $danger,
 );
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins";
+.btn-primary {
+  color: #fff;
+  background-color: $primary;
+  :hover {
+    background-color: darken($primary, 10%);
+     }
+}
 
 html {
   font-size: 15px;
@@ -38,7 +46,7 @@ html {
 }
 
 body {
-  font-family: "Comfortaa", cursive;
+  font-family: 'Roboto', sans-serif;
   color: $primary_color_typo;
 }
 
@@ -46,30 +54,28 @@ body {
   margin-top: -4rem;
 }
 
-.jumbotron{
-background-color: #fafafa;
-}
+
 .boost{
   color: #f65858;
   text-transform: uppercase
 }
-.heading-section {
- adding-top: 10%;
-  padding-bottom: 10%;
-  height:567px;
-  background-image: url("../../assets/images/meeting.jpeg");
+
+.boost__title{
+  font-size: 4.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color:#cbccce;
+}
+
+
+.cover{
+  background-image: url("../images/event-header.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: $danger;
-  background-color:rgba(33,33,33,0.8);
-  
-} 
-#top-menu {
-  position: relative;
-  top: 0;
-  width: 100%;
-  z-index: 3030;
+  color: #cbccce;
 }
 
 .header-menu{
@@ -858,7 +864,7 @@ background-color: #fafafa;
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 0rem;
-  background-color: #e9ecef;
+  background-color: rgba(000,000,000,0.5);
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {

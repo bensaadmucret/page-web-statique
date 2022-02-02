@@ -10534,8 +10534,21 @@ body {
   color: #506690;
 }
 
-.header {
-  padding-top: 10%;
+.top {
+  margin-top: -4rem;
+}
+
+.jumbotron {
+  background-color: #fafafa;
+}
+
+.boost {
+  color: #f65858;
+  text-transform: uppercase;
+}
+
+.heading-section {
+  adding-top: 10%;
   padding-bottom: 10%;
   height: 567px;
   background-image: url("../../assets/images/meeting.jpeg");

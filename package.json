@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bensaadmucret/portfolio-Creative.git"
+    "url": "https://bensaadmucret.github.io/page-web-statique/"
   },
   "keywords": [
     "HTML",
@@ -21,10 +21,10 @@
   "author": "Mohammed Bensaad",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bensaadmucret/portfolio-Creative/issues"
+    "url": "https://github.com/bensaadmucret/page-web-statique/issues"
   },
-  "homepage": "https://github.com/bensaadmucret/portfolio-Creative#readme",
+  "homepage": "https://github.com/bensaadmucret/page-web-statique#readme",
   "dependencies": {
-    "bootstrap": "^4.6.0"
+    "bootstrap": "^5.0.0"
   }
 }

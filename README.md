@@ -1,7 +1,17 @@
 # page web statique
 
 > Bachelor Développeur d'application web
-> Évaluation d'entraînement - Créer un site web avec HTML, CSS et le Framework Bootstrap
+> Évaluation d'entraînement - Créer un site web avec HTML, CSS et le Framework Bootstrap"
+
+### Installation
+>git clone https://github.com/bensaadmucret/page-web-statique.git
+> 
+>cd page-web-statique
+
+>npm install
+> 
+>npm run build # pour compiler le site
+
 
 ### Tech
 

@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/bensaadmucret/page-web-statique#readme",
   "dependencies": {
-    "bootstrap": "^5.0.0"
+    "bootstrap": "^5.0.0",
+    "swup": "^2.0.14"
   }
 }

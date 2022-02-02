@@ -11,7 +11,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Libs CSS -->
   <link rel="stylesheet" href="assets/css/libs.bundle.css" />
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Theme CSS -->
   <link rel="stylesheet" href="assets/css/theme.bundle.css" />
   <link href="assets/css/main.css" rel="stylesheet" />
@@ -57,10 +57,11 @@
     </header>
     <!--=========== Accueil | header ====================-->
     <section>
-      <div class="jumbotron jumbotron-fluid" style="background-color: #fafafa;">
-        <div class="container ">
+      <div class="jumbotron jumbotron-fluid" data-aos="fade-up" style="background-color: #fafafa;">
+
+        <div class="container">
           <div class="row">
-            <div class="col-12 col-md-7 col-lg-6 order-md-1">
+            <div class="col-12 col-md-7 col-lg-6 order-md-1" >
               <h1 class="display-2" style="color: #1320cd;">Grace à nos meetup!</h1>
               <p class="lead">Échanger, partager et devenez un meilleur développeur-se.<br/> Ateliers, retours d'expérience, talks sur le métier de développeur.se et d'intégrateur, nous parlerons de tout !</p>
                <div class="text-center text-md-left">
@@ -69,15 +70,16 @@
                 </a>
               </div>
             </div>
-            <div class="col-12 col-md-5 col-lg-6 order-md-2">
+            <div class="col-12 col-md-5 col-lg-6 order-md-2"data-aos="fade-left">
               <img src="assets/images/illustration-header.png" class="img-fluid" alt="illustration-header">
             </div>
           </div>
         </div>
+
       </div>    
     </section>
    <!--=========== Agenda MeetUp  ====================-->
-    <section class="content-agenda">
+    <section class="content-agenda" data-aos="fade-down" >
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6 py-8 py-md-11">
@@ -92,7 +94,7 @@
               </a>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-6"> 
+          <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" >
           <div class=" py-8 py-md-11">
             <div class="agenda"> 
               <div class="display-6 mx-auto">Événements en ligne à venir</div>             
@@ -124,7 +126,7 @@
           </div>
           </div> <!--col-12 col-md-5 col-lg-6-->
           <div class="col-sm">
-            <div class="information-content">
+            <div class="information-content" data-aos="fade-right" >
               <div class="information-content-inner">
                 <h2>Informations</h2>
                 <p>
@@ -141,7 +143,7 @@
       </div>
     </section>
     <!--============BLOG==================-->
-    <section class="ftco-section bg-light">
+    <section class="ftco-section bg-light" data-aos="fade-up" >
       <div class="container">
         <div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate fadeInUp ftco-animated">
@@ -151,7 +153,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-lg-4 ftco-animate fadeInUp ftco-animated">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" >
             <div class="blog-entry">
               <a href="blog-single.html" class="block-20 d-flex align-items-end"
                 style="background-image:url(images/ximage_1.jpg.pagespeed.ic.K--6tMW6Tl.webp)">
@@ -161,7 +163,7 @@
                   <span class="yr">2019</span>
                 </div>
               </a>
-              <div class="text bg-white p-4">
+              <div class="text bg-white p-4" data-aos="fade-up" >
                 <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
                   the blind texts.</p>
@@ -176,7 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 ftco-animate fadeInUp ftco-animated">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" >
             <div class="blog-entry">
               <a href="blog-single.html" class="block-20 d-flex align-items-end"
                 style="background-image:url(images/ximage_2.jpg.pagespeed.ic.yG61gYt8iz.webp)">
@@ -186,7 +188,7 @@
                   <span class="yr">2019</span>
                 </div>
               </a>
-              <div class="text bg-white p-4">
+              <div class="text bg-white p-4" data-aos="fade-up" >
                 <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
                   the blind texts.</p>
@@ -201,7 +203,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 ftco-animate fadeInUp ftco-animated">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
             <div class="blog-entry">
               <a href="blog-single.html" class="block-20 d-flex align-items-end"
                 style="background-image:url(images/ximage_3.jpg.pagespeed.ic.L063JoXyYB.webp)">
@@ -211,7 +213,7 @@
                   <span class="yr">2019</span>
                 </div>
               </a>
-              <div class="text bg-white p-4">
+              <div class="text bg-white p-4" data-aos="fade-up" >
                 <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
                   the blind texts.</p>
@@ -412,6 +414,10 @@
   <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
   <script src="assets/js/jquery-mini.js"></script>
   <script src="assets/js/boot-mini.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

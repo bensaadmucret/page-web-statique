@@ -4,7 +4,7 @@
   "description": "Bachelor Développeur d'application web [] Évaluation d'entraînement - Créer un site web avec HTML, CSS et le Framework Bootstrap",
   "main": "index.html",
   "scripts": {
-    "build": " sass --watch  assets/css/main.scss assets/css/main.css"
+    "build": " sass --watch  assets/css/main.scss assets/css/main.css --style compressed"
   },
   "repository": {
     "type": "git",

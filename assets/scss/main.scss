@@ -10,6 +10,7 @@ $jaune_moutard: #F2CC39;
 $bleu: #506AD4;
 $taupe: #C2B8AD;
 
+
 .navbar-brand-img {  
   height: auto !important;
   width: 5.5em;
@@ -22,9 +23,9 @@ $theme-colors: (
   "danger": $danger,
 );
 
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../../node_modules/bootstrap/scss/variables.scss";
-@import "../../node_modules/bootstrap/scss/mixins.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
 html {
   font-size: 15px;

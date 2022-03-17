@@ -40,8 +40,7 @@
             <span class="fa fa-bars"></span> Menu
           </button>
           <div class="site-logo">
-            <a class="scrollto" href="#hero-block"><img class="logo-icon" src="./assets/images/logo.png" alt="logo"></a>
-            <span class="logo-text">Blockchain Dev l'Asso</span>
+            <span class="logo-text">Blockchain <strong>Dev l'Asso</strong></span>
           </div>
           <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto mr-md-3">
@@ -59,23 +58,24 @@
     </header>
     <!--=========== Accueil | header ====================-->
     <section class="cover">
-      <div class="jumbotron jumbotron-fluid" >
+      <div class="jumbotron jumbotron-fluid bg-gradient-primary-to-secondary" >
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-12 col-lg-12 order-md-1" data-aos="fade-up">
-              <h1 class="display-2 boost__title">Grace à nos meetup!</h1>
-              <p class="lead">Échanger, partager et devenez un meilleur développeur-se.<br/> Ateliers, retours d'expérience, talks sur le métier de développeur.se et d'intégrateur, nous parlerons de tout !</p>
-               <div class="text-center text-md-left">
-                <a href="overview.html" class="btn btn-primary btn-lg">
-                  Voir nos Meetup<i class="fe fe-arrow-right d-none d-md-inline ml-3"></i>
+            <div class="col-12 col-md-12 col-lg-12 order-md-1 d-flex flex-column " data-aos="fade-up">
+              <h1 class="display-2 boost__title d-flex justify-content-center m-5">Grace à nos meetup!</h1>
+              <p class=" boost__sous-titre text-center d-flex justify-content-center">
+                Échanger, partager et devenez un meilleur développeur-se.<br/> Ateliers, retours d'expérience, talks sur le métier de développeur.se et d'intégrateur, nous parlerons de tout !</p>
+               <div class="text-center text-md-left d-flex justify-content-center mt-4">
+                <a href="#" class="btn btn-outline-light py-3 px-4 rounded-pill text-center">
+                  Voir nos Meetup
                 </a>
               </div>
             </div>
           </div>
         </div>
-
       </div>    
     </section>
+   
    <!--=========== Agenda MeetUp  ====================-->
     <section class="content-agenda" data-aos="fade-down" >
       <div class="container">
@@ -145,16 +145,19 @@
     </section>
     <!--=========== End Agenda MeetUp  ====================-->
     <!--=========== Intervenant MeetUp  ====================-->
-    <section class="speakers-section m-5">
+    <section class="speakers-section bg-gradient-primary-to-secondary" data-aos="fade-down">
       <div class="container">
-        <h3 class="boost text-center mb-3 text-black">
+      <div class="row">
+        <h3 class="text-white text-center mt-4 display-1">
           Intervenant
         </h3>
-        <div class="section-intro text-center mx-auto mb-5"><p>Vous aussi vous avez envie de transformer l’expérience de
-          travail dans votre quotidien professionnel ? Prenez votre temps. Ecoutez. Soyez le changement que vous voulez voir.</p>
-          <span class="text-red text-center"> Avec les talk de nos intervenant changer votre façon de voir votre métier </span>
+        <div class=" m-3 text-center">
+          <p class="text-white">Vous aussi vous avez envie de transformer l’expérience de
+          travail dans votre quotidien professionnel ?</p>
+          <p class="text-white">Prenez votre temps. Ecoutez. Soyez le changement que vous voulez voir.</p>
+         <p class="text-white"> Avec les talk de nos intervenant changer votre façon de voir votre métier </p>
         </div>
-
+      </div>
         <div class="row">
           <div class="col-6 col-lg-3 mb-4" data-aos="fade-right">
             <div class="card rounded-0">
@@ -237,7 +240,7 @@
             </div><!--//card-->
           </div><!--//col-->
         </div><!--//row-->
-        <div class="speakers-cta text-center py-3"><a class="btn btn-primary btn-lg" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Get Tickets</a></div>
+        <div class="speakers-cta text-center py-3"><a class="btn btn-outline-light py-3 px-4 rounded-pill" href="">Get Tickets</a></div>
       </div><!--//container-->
     </section><!--//speakers-section-->
 
@@ -331,7 +334,7 @@
       </div>
     </section>
    <!-- FOOTER -->
-    <footer class="py-8 py-md-11">
+    <footer class="py-8 py-md-11 bg-gradient-primary-to-secondary">
       <div class="container  m-5">
         <div class="row">
           <div class="col-12 col-md-4 col-lg-3">
@@ -357,12 +360,7 @@
                 <a href="#!" class="text-decoration-none">
                   <img src="assets/img/icons/social/twitter.svg" class="list-social-icon" alt="..." />
                 </a>
-              </li>
-              <li class="list-inline-item list-social-item">
-                <a href="#!" class="text-decoration-none">
-                  <img src="assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="..." />
-                </a>
-              </li>
+              </li>              
             </ul>
           </div>
           <div class="col-6 col-md-4 col-lg-2">

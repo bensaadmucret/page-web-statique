@@ -1,6 +1,11 @@
 .wrapper {
     max-width: 500px;
-    margin: 50px auto
+    margin: 50px auto;
+    
+}
+
+.shadow{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .wrapper .card {
@@ -30,6 +35,7 @@
     border-radius: 5px;
     color: #212cc0;
     padding: 0.3rem;
+    margin: 10px;
 }
 
 .wrapper .card .input-field input {

@@ -23,12 +23,6 @@ $taupe: #C2B8AD;
   margin-left: 15px;
 }
 
-$theme-colors: (
-  "primary": $primary,
-  "danger": $danger,
-);
-
-
 
 html {
   font-size: 15px;
@@ -55,6 +49,7 @@ p {
 .top{
   margin-top: -4rem;
 }
+
 
 
 .boost{
@@ -157,9 +152,6 @@ h3.section-heading  {
   background-color: transparent;
   border: #f8f9fa solid 1px;
 }
-
-
-
 
 
 .bg-gradient-primary-to-secondary {

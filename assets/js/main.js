@@ -1,3 +1,5 @@
+window.addEventListener('load', function() {
+
 (function($) {
 
 	"use strict";
@@ -15,3 +17,4 @@
 	});
 
 })(jQuery);
+});

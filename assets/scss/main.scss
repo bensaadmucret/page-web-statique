@@ -199,6 +199,16 @@ p {
   font-size-adjust: calc(1.5rem + .5vw);
 }
 
+.register{
+  font-size: 1.1rem;
+  color: $color_paragraph;
+  text-align: justify;
+  font-weight: 500;
+  font-size-adjust: calc(1.5rem + .5vw);
+  padding-left: 30%;
+  padding-right: 30%;  
+}
+
 .post-header__title {
   text-align: center;
   justify-content: baseline;

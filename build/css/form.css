@@ -33,7 +33,7 @@
 .wrapper .card .input-field {
     border: 1px solid rgb(221, 221, 221);
     border-radius: 5px;
-    color: rgb(51 51 51);
+    color: #dee2e6;
     padding: 0.3rem;
     margin: 10px;
 }
@@ -148,7 +148,7 @@
 }
 
 .wrapper .card .text-light-white {
-    color: #141c25;
+    color: #dee2e6;
 }
 
 .wrapper .card .line span.connect {
@@ -198,3 +198,4 @@
         margin: 10px
     }
 }
+

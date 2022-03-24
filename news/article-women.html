@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="TP Studi création d'un site static avec Bootstrap." />
   <meta name="author" content="Mohammed Bansaad" />
-  <link rel="shortcut icon" href="favicon.png">
+  <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,54 +17,123 @@
   <link href="../assets/css/main.css" rel="stylesheet" />
   <title>Blockchain Dev l'Asso</title>
 </head>
+
 <body>
   <main>
-       <!--=========== Accueil | header ====================-->
-       <section class="header-intro">
-        <div class="jumbotron jumbotron-fluid bg-gradient-primary-to-secondary" >
-          <div class="container ">
-            <div class="row">
-              <div class="col-12 col-md-12 col-lg-12 order-md-1 d-flex flex-column ">
-                <h1 class="boost__title d-flex justify-content-center m-5">Blog</h1>
-                <p class="lead text-center">
-                  <a href="../index.html" class="btn btn-outline-light btn-lg">Retour à l'accueil</a>
-                </p>                 
-                </div>
-              </div>
+    <section class="bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <p class="text-center text-white pt-2">
+              Toutes nos meetup peuvent être suivies depuis chez vous
+              <a href="" class="lien-message-bar"><span>En savoir plus</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header class="header-menu shadow">
+      <div class="container">
+        <!--============ Menu ==========================-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white mx-auto ">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+            aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span> Menu
+          </button>
+          <div class="site-logo">
+            <a href="index.html" class="navbar-brand d-flex">
+              <img src="../assets/images/logo.png" width="200" alt="logo" />
+            </a>
+
+          </div>
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto mr-md-3 d-flex">
+              <li class="nav-item active"><a href="../index.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="../a-propos.html" class="nav-link">A propose</a></li>
+              <li class="nav-item"><a href="../blog.html" class="nav-link">Blog</a></li>
+              <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="../login.html" class="nav-link">Connexion</a></li>
+            </ul>
+          </div>
+      </div>
+      </nav>
+      </div>
+    </header>
+    <!--=========== Accueil | header ====================-->
+    <section class="header-intro">
+      <div class="jumbotron jumbotron-fluid bg-gradient-primary-to-secondary">
+        <div class="container ">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 order-md-1 d-flex flex-column ">
+              <h1 class="boost__title d-flex justify-content-center m-5">Blog</h1>
             </div>
           </div>
-        </div>    
-      </section>
-      <article>
-          <div class="container">
-              <div class="row">
-                  <div class="title m-3 text-center">
-                  <div class="col-12">
-                      <h1>Le statut des femmes développeuses à travers le monde</h1> 
-                  </div>
-                </div>
-                  <div class="content">
-                      <div class="col-12">
-                          <p class="d-flex flex-column">
-                              <span class="date text-small"><strong>Le 22/02/2020</strong></span>
-                              <span class="author text-small">Par <a href="https://blog.adatechschool.fr/le-statut-des-developpeuses/">Salomée David Baousson</a></span>
-                              <span class="category text-small">Dans la catégorie <a href="">Statut des développeuses</a></span>
-                          </p>
-                          <p>                              
-                  <p>Aujourd'hui, l'informatique occupe le devant de la scène. Ce secteur recrute massivement malgré la crise sanitaire et offre de belles opportunités professionnelles aux femmes développeuses.</p>
-                  <p>Alors pourquoi ne pas tenter de travailler dans ce domaine?</p>
-                  <p>Si tu es une femme et que tu ne t'es pas orientée dans ce secteur, c'est peut-être parce que tu as été découragée par un lot de stéréotypes. Résultat : l'informatique aujourd'hui en France est un secteur particulièrement masculin avec seulement 10% des métiers de la programmation occupés par des femmes.</p>
-                  <p>Même si l'égalité femmes-hommes semble devenir la norme, il y a encore du chemin à parcourir, notamment dans l'informatique. Il est donc important de former les jeunes filles aux métiers de développeuses pour pouvoir assurer une transition numérique de manière égalitaire. Et cela, à l'international !</p> 
-                  <div class="img-thumbnail text-center">                     
-                  <img src="../assets/images/news/femmes-usine.jpg" alt="femme dans une usine après guerre image en noir et blanc">
-                  </div>         
-                </div>
-
-              </div>
-         
         </div>
-    </div>
-      
+      </div>
+      </div>
+    </section>
+    <!--=========== Fin Accueil | header ====================-->
+    <!--=========== Blog ====================-->
+    <section class="page-single">
+      <article class="content">
+        <div class="container">
+          <div class="row">         
+            <div class="title text-center">
+              <div class="col-12">
+                <h1 class="mt-5">Le statut des femmes développeuses à travers le monde</h1>
+              </div>
+            </div>          
+              <div class="col-12">
+                <p class="d-flex flex-column">
+                  <span class="date text-small"><strong>Le 22/02/2020</strong></span>
+                  <span class="author text-small">Par <a
+                      href="https://blog.adatechschool.fr/le-statut-des-developpeuses/">Salomée David Baousson</a></span>
+                  <span class="category text-small">Dans la catégorie <a href="">Statut des développeuses</a></span>
+                </p>
+                <p>
+                <p>Aujourd'hui, l'informatique occupe le devant de la scène. Ce secteur recrute massivement malgré la
+                  crise sanitaire et offre de belles opportunités professionnelles aux femmes développeuses.</p>
+                <p>Alors pourquoi ne pas tenter de travailler dans ce domaine?</p>
+                <p>Si tu es une femme et que tu ne t'es pas orientée dans ce secteur, c'est peut-être parce que tu as été
+                  découragée par un lot de stéréotypes. Résultat : l'informatique aujourd'hui en France est un secteur
+                  particulièrement masculin avec seulement 10% des métiers de la programmation occupés par des femmes.</p>
+                <p>Même si l'égalité femmes-hommes semble devenir la norme, il y a encore du chemin à parcourir, notamment
+                  dans l'informatique. Il est donc important de former les jeunes filles aux métiers de développeuses pour
+                  pouvoir assurer une transition numérique de manière égalitaire. Et cela, à l'international !</p>
+                <div class="col-12 responsive-img">
+                  <img src="../assets/images/news/femmes-usine.jpg"
+                    alt="femme dans une usine après guerre image en noir et blanc" width="100%" height="100%">
+                </div>
+                <p>Il est aussi intéressant de voir que les mauvais élèves de l'égalité femmes-hommes dans le domaine de
+                  l'informatique sont les pays occidentaux, alors qu'ils tentent de montrer l'exemple en matière
+                  d'égalité. En effet, des pays comme la Malaisie ou les Emirats Arabe Unis forment et attirent plus de
+                  femmes dans le secteur de l'informatique.
+  
+                  Cet article est ici pour te montrer la situation des femmes développeuses dans le monde, t'expliquer
+                  pourquoi les femmes ont été marginalisées dans certains pays et comment il est possible de leur donner à
+                  nouveau une place importante dans ce secteur !</p>
+  
+                <p>Les femmes développeuses dans l'informatique en quelques chiffres
+                  En trente ans, les femmes ingénieures en informatique en France sont passées d'un tiers des effectifs à
+                  seulement 15%. Dans les métiers du numérique, les femmes représentent seulement 30% des emplois et parmi
+                  eux, elles sont seulement 15% à occuper des fonctions techniques dans la production ou l'exploitation de
+                  projets informatiques contre 75% dans des domaines stéréotypés comme féminins (ressources humaines,
+                  communication, marketing), rapporte Le Monde.</p>
+  
+                <p>Alors, la France est-elle vraiment une mauvaise élève ou est-elle dans la tendance inégalitaire
+                  mondiale du secteur de l'informatique? Que peut-on remarquer en comparant le statut des développeuses
+                  dans le monde?
+  
+                  Dans un article datant de 2017, l'Unesco constate que les femmes dans le monde représentent 53% des
+                  titulaires d'une licence ou d'un mastère et 43% des docteures dans les domaines scientifiques. Bien que
+                  la parité soit de mise en science, l'informatique manque encore cruellement de mixité. </p>
+              </div>
+  
+            </div>
+  
+          </div>    
+  
       </article>
-             
-                 
+    </section>
+   

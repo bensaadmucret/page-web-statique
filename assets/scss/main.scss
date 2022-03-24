@@ -8,9 +8,11 @@ $section-bg:#fcf5e8;
 $box-shadow: rgba(163, 163, 163, .8) 0px 1px 10px;
 $bleu_clair: #A3CDD9;
 $sable: #FFFCE6;
-$jaune_moutard: #F2CC39;
+$jaune_moutard: #f2cc39;
 $bleu: #506AD4;
 $taupe: #C2B8AD;
+$pink: #fc7fb2;
+$body-bg:#fcf5e8;
 
 
 
@@ -29,21 +31,20 @@ html {
   line-height: 22px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", cursive;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: $primary_color_typo;
-}
+
 
 p {
   line-height: 1.75;
   font-size: 1.1em;
   color: $color_paragraph;
+  letter-spacing: 0.1em;
 }
+
 
 
 .top{
@@ -51,9 +52,47 @@ p {
 }
 
 
+.illustration-contact img{
+  width: 100%;
+  height: auto;
+  
+}
+
+.responsive-img{
+  width: 100%;
+  height: auto;
+}
+
+.contact{ 
+  background-color:#fcf5e8;
+}
+.formulaire-register{
+  background-color: rgb(255 255 255 / 60%);
+  padding: 2rem;
+}
+
+.body-bg{
+  background-color: $body-bg;
+}
+
+.page-single{
+   margin: 0;
+   background-color: $section-bg;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .page-single{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+  
+
+
 
 .boost{
-  color: #f65858;
+  color: #4a3dff;
   text-transform: uppercase
 }
 
@@ -155,6 +194,13 @@ h3.section-heading  {
   border: #f8f9fa solid 1px;
 }
 
+.btn-outline-black {
+  color: #111922;
+  border-color: #161e25;
+  background-color: transparent;
+  border: #12181f solid 1px;
+}
+
 
 .bg-gradient-primary-to-secondary {
   background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
@@ -169,7 +215,7 @@ p {
 }
 
 .title h1{
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: rgb(192, 9, 152);
   text-transform: uppercase;
@@ -192,11 +238,14 @@ p {
 }
 
 .content{
-  font-size: 1.1rem;
   color: $color_paragraph;
   text-align: justify;
   font-weight: 500;
   font-size-adjust: calc(1.5rem + .5vw);
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .register{
@@ -231,7 +280,7 @@ p {
 
 
 .header-menu{
-  position: relative;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 3030;
@@ -5227,17 +5276,24 @@ h1, h2, h3, h4, h5,
   box-shadow: 0 6px 6px -6px #495057;
 }
 
+a .lien-message-bar > span {
+  color: $primary_color_typo;
+  text-decoration: none;
+}
 .bar{
-  background-color: #2937f0;
+  position: sticky;
+  background-color: $pink;
   color: #fff;
+  a{
+    text-decoration: none;
+  }
   span { 
     color: $jaune_moutard;
     padding: 1rem 1rem 1rem 0rem;
-    font-weight: 800;
+    font-weight: 700;
     text-shadow: #060a0a 0px 1px 0px;
-    &:hover {
-     
-      color: #060a0a;
+    &:hover {     
+      color: #142222;
       text-decoration: none;
       }
    }

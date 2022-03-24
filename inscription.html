@@ -16,7 +16,7 @@
    <link href="build/css/form.css" rel="stylesheet" />
   <title>Blockchain Dev l'Asso</title>
 </head>
-<body>
+<body class="body-bg">
   <main>
    <section class="bar">
       <div class="container">
@@ -68,55 +68,41 @@
             <h1 class="mb-0 font-weight-bold text-center">
               S'inscrires
             </h1>
-            <!-- Text -->
+        
             <p class="mb-6 text-center text-muted">
               Retouvez l'ensemble de vos Meetup en quelques minutes.
             </p>
-<form>
-    <!-- Form -->
-    <div class="mb-3">
-      <label class="form-label" for="signupSimpleSignupEmail">Your email</label>
-      <input type="email" class="form-control form-control-lg" name="email" id="signupSimpleSignupEmail" placeholder="email@site.com" aria-label="email@site.com" required="">
-      <span class="invalid-feedback">Please enter a valid email address.</span>
+            <!-- Form -->
+          <form>
+            <div class="mb-3">
+            <label class="form-label" for="signupSimpleSignupEmail">Votre email</label>
+            <input type="email" class="form-control form-control-lg" name="email" id="signupSimpleSignupEmail" placeholder="email@site.com" aria-label="email@site.com" required="">
+            <span class="invalid-feedback">Please enter a valid email address.</span>
+          </div>     
+          <div class="mb-3">
+            <label class="form-label" for="signupSimpleSignupPassword">Mot de passe</label>
+
+            <div class="input-group input-group-merge" data-hs-validation-validate-class="">
+              <input type="password" class="form-control form-control-lg" name="password" id="signupSimpleSignupPassword" placeholder="8+ characters required" aria-label="8+ characters required" required="">
+            </div>
+
+            <span class="invalid-feedback">Your password is invalid. Please try again.</span>
+          </div>    
+        <div class="mb-3">
+          <label class="form-label" for="signupSimpleSignupConfirmPassword">Confirmation du mot de passe</label>
+
+          <div class="input-group input-group-merge" data-hs-validation-validate-class="">
+            <input type="password" class="js-toggle-password form-control form-control-lg" name="confirmPassword" id="signupSimpleSignupConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" required="">
+          </div>    
     </div>
-    <!-- End Form -->
-
-    <!-- Form -->
-    <div class="mb-3">
-      <label class="form-label" for="signupSimpleSignupPassword">Password</label>
-
-      <div class="input-group input-group-merge" data-hs-validation-validate-class="">
-        <input type="password" class="form-control form-control-lg" name="password" id="signupSimpleSignupPassword" placeholder="8+ characters required" aria-label="8+ characters required" required="">
-      </div>
-
-      <span class="invalid-feedback">Your password is invalid. Please try again.</span>
-    </div>
-    <!-- End Form -->
-
-    <!-- Form -->
-    <div class="mb-3">
-      <label class="form-label" for="signupSimpleSignupConfirmPassword">Confirm password</label>
-
-      <div class="input-group input-group-merge" data-hs-validation-validate-class="">
-        <input type="password" class="js-toggle-password form-control form-control-lg" name="confirmPassword" id="signupSimpleSignupConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" required="">
-      </div>
-
-     
-    </div>
-    <!-- End Form -->
-
-    <!-- Check -->
     <div class="form-check mb-3">
       <input type="checkbox" class="form-check-input" id="signupHeroFormPrivacyCheck" name="signupFormPrivacyCheck" required="">
       <label class="form-check-label small" for="signupHeroFormPrivacyCheck"> By submitting this form I have read and acknowledged the <a href="./page-privacy.html">Privacy Policy</a></label>
       <span class="invalid-feedback">Please accept our Privacy Policy.</span>
     </div>
-    <!-- End Check -->
-
-    <div class="d-grid mb-3">
+     <div class="d-grid mb-3">
       <button type="submit" class="btn btn-primary btn-lg">Inscription</button>
     </div>
-
     <div class="text-center">
       <p>Already have an account? <a class="link" href="./page-login-simple.html">Log in here</a></p>
     </div>

@@ -13,6 +13,7 @@ $bleu: #506AD4;
 $taupe: #C2B8AD;
 $pink: #fc7fb2;
 $body-bg:#fcf5e8;
+$link-color: #9f1ae2;
 
 
 
@@ -40,7 +41,7 @@ html {
 
 p {
   line-height: 1.75;
-  font-size: 1.1em;
+  font-size: 1em;
   color: $color_paragraph;
   letter-spacing: 0.1em;
 }
@@ -602,11 +603,11 @@ p {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9); }
+  color: $link-color }
 
   .navbar-light .navbar-toggler {
     color: #3833ee;
-    border-color: rgba(0,0,0,.1);
+    border-color:$link-color;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -625,7 +626,7 @@ p {
     color: #fff; }
 
  .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: $link-color;
   font-weight: 500;
 }
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
@@ -639,7 +640,7 @@ p {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff; }
+  color: $link-color }
 
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -5208,7 +5209,7 @@ h1, h2, h3, h4, h5,
 
 
 .navbar-dark .navbar-nav .nav-link {
-  color: $primary_color_typo;
+  color: $primary;
   
 }
 
@@ -5231,7 +5232,6 @@ h1, h2, h3, h4, h5,
 
 .base-ligne > h1 {
   color:$primary_color_typo;
-  font-family: "Comfortaa", cursive;
   font-size: 2rem;
   font-weight: 600;
   line-height: 2rem;
@@ -5239,7 +5239,6 @@ h1, h2, h3, h4, h5,
 }
 
 .base-ligne > h2 {
-  font-family: "Comfortaa", cursive;
   color: #9fc1ea;
   margin-top: 1%;
   margin-bottom: 5%;

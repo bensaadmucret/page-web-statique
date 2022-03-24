@@ -37,6 +37,16 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+  
+}
 
 
 p {
@@ -89,11 +99,16 @@ p {
   }
 }
   
+a.block-20{
+  background-color: $section-bg;
+  text-decoration: none;
+  color: $primary;
 
+}
 
 
 .boost{
-  color: #4a3dff;
+  color: $primary;
   text-transform: uppercase
 }
 
@@ -5067,7 +5082,7 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   font-weight: 400;
   font-family: "Poppins", Arial, sans-serif;
-  color: #000; }
+  color:#495057; }
 
 .bg-primary {
   background: #fc7fb2 !important; }

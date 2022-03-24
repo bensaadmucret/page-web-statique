@@ -7,7 +7,7 @@
     "build": " sass --watch  assets/scss/main.scss assets/css/main.css --style=compressed",
     "build-prod": "sass --no-source-map --style=compressed assets/scss:assets/css",
     "purgecss": "purgecss  --css assets/css/main.css --content index.html 'src/**/*.js' --output build/css/"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "https://bensaadmucret.github.io/page-web-statique/"
@@ -27,8 +27,7 @@
   },
   "homepage": "https://github.com/bensaadmucret/page-web-statique#readme",
   "dependencies": {
-    "bootstrap": "^5.0.0",
-    "swup": "^2.0.14"
+    "bootstrap": "^5.0.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",

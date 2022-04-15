@@ -133,12 +133,20 @@ h3.section-heading  {
 }
 
 .boost__title{
-  font-size: 4.5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
   color: #fff;
   font-weight: 800;
 }
+
+@media screen and (max-width: 768px) {
+  .boost__title{
+    font-size: 3rem;
+  }
+}
+  
+
 
 .boost__sous-titre{
   font-size: 1rem;  
@@ -166,6 +174,23 @@ h3.section-heading  {
   background-size: cover;
   background-repeat: no-repeat;
   color: #cbccce;
+}
+.illustration-about img{
+  width: 100%;
+  height: auto;
+  margin: 10%;
+}
+
+ @media screen and (max-width: 768px) {
+  .illustration-about img{
+
+    max-width: 300px;
+    margin: 5%;
+  }
+}
+
+.about{
+  margin: 6rem 2rem;
 }
 
 .shadow{
